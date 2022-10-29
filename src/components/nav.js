@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(10, 25, 47, 0.85);
+  background-color: rgba(1, 33, 105, 0.85);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -66,14 +66,14 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--yellow);
       width: 42px;
       height: 42px;
 
       &:hover,
       &:focus {
         svg {
-          fill: var(--green-tint);
+          fill: var(--yellow-tint);
         }
       }
 
@@ -112,7 +112,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--yellow);
           font-size: var(--fz-xxs);
           text-align: right;
         }

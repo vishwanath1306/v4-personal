@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--yellow);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--yellow);
 
     &:hover,
     &:focus {
@@ -105,7 +105,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--yellow);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -135,30 +135,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I am currently in my second year of PhD at{' '}
+              <a href="https://www.emory.edu">Emory University</a>, where I am working on
+              Distributed Systems. I obtained my BE in Computer Science in 2018 from from{' '}
+              <a href="http://cs.annauniv.edu/">Department of Computer Science</a> at{' '}
+              <a href="http://ceg.annauniv.edu/">College of Engineering Guindy</a>, where I worked
+              on cutting edge research with Dr. A.P. Shanthi, and Dr. Bama Srinivasan.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Currently, I work in <a href="https://simbiosys.mathcs.emory.edu/">Simbiosys Lab’s</a>{' '}
+              Systems Group, supervised by{' '}
+              <a href="http://www.mathcs.emory.edu/~avani/">Dr. Avani Wildani</a> and{' '}
+              <a href="http://ymsir.com/">Dr. Ymir Vigfusson.</a> My research interests is in the
+              domain of Distributed Systems, where I am trying to make the systems more predictable.
+              Currently, I am working on QoS Violations in Microservices with{' '}
+              <a href="https://francisyyan.org/">Dr. Francis Yan.</a> In my free time, I enjoy
+              cooking, reading, and exploring new music options!
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +166,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="https://vishwanath1306.github.io/img/circled.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
