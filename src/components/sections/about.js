@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Rust', 'DPDK', 'Docker', 'Distributed Tracing', 'Linux', 'Kernel Bypass'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -147,14 +147,11 @@ const About = () => {
               Currently, I work in <a href="https://simbiosys.mathcs.emory.edu/">Simbiosys Lab’s</a>{' '}
               Systems Group, supervised by{' '}
               <a href="http://www.mathcs.emory.edu/~avani/">Dr. Avani Wildani</a> and{' '}
-              <a href="http://ymsir.com/">Dr. Ymir Vigfusson.</a> My research interests is in the
-              domain of Distributed Systems, where I am trying to make the systems more predictable.
-              Currently, I am working on QoS Violations in Microservices with{' '}
-              <a href="https://francisyyan.org/">Dr. Francis Yan.</a> In my free time, I enjoy
-              cooking, reading, and exploring new music options!
+              <a href="http://ymsir.com/">Dr. Ymir Vigfusson.</a> My research interests is towards
+              making Microservices more performant.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies, I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">
@@ -166,7 +163,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="https://vishwanath1306.github.io/img/circled.png"
+              src="../../images/Vish_Image.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

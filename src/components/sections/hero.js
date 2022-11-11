@@ -58,15 +58,15 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Vanakkam! My name is</h1>;
+  const one = <h1>Vankkam! My name is</h1>;
   const two = <h2 className="big-heading">Vishwanath Seshagiri.</h2>;
-  const three = <h3 className="big-heading">I build infrastructure for future web.</h3>;
+  const three = <h3 className="big-heading">I build infrastructure for future cloud.</h3>;
   const four = (
     <>
       <p>
-        I am currently in my second year of PhD at{' '}
+        I am currently in my fourth year of PhD at{' '}
         <a href="https://www.emory.edu">Emory University</a>, where I am working on Distributed
-        Systems.
+        Systems. My research is about diagnosing and fixing performance problems in Microservices.
       </p>
     </>
   );
