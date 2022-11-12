@@ -35,9 +35,28 @@ const StyledContactSection = styled.section`
     font-size: clamp(40px, 5vw, 60px);
   }
 
-  .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+  .list {
+    list-style-type: decimal-leading-zero;
+    li {
+      text-align: justify;
+      margin-bottom: 12px;
+      font-size: var(--fz-xl);
+
+      .highlight {
+        font-weight: bold;
+        color: var(--yellow);
+      }
+
+      a {
+        font-weight: 400;
+        font-family: var(--font-mono);
+        font-size: var(--fz-sm);
+        color: var(--dark-slate);
+        &:hover {
+          color: var(--slate);
+        }
+      }
+    }
   }
 `;
 
@@ -54,28 +73,32 @@ const Publication = () => {
   }, []);
 
   return (
-    <StyledContactSection id="contact" ref={revealContainer}>
+    <StyledContactSection id="publication" ref={revealContainer}>
       <h2 className="numbered-heading overline">Some thing I've published</h2>
 
       <h2 className="title">Publication</h2>
 
-      <ul>
+      <ol className="list">
         <li>
-          {/* Align this to the left-ish but overall should be central. Maybe increase font size a bit.  */}
-          A biologically plausible network model for pattern storage and recall inspired by Dentate
-          Gyrus V. Vidya Janarthanam, <b>Vishwanath Seshagiri</b>, and A.P. Shanthi [
-          <a href="../../papers/sample.pdf">PDF</a>] [
-          <a href="https://link.springer.com/article/10.1007/s00521-019-04670-3">LINK</a>] [
-          <a href="https://gitlab.com/thebrahminator/hippo-dg">CODE</a>]
+          <span className="highlight">
+            A biologically plausible network model for pattern storage
+          </span>{' '}
+          and recall inspired by Dentate Gyrus V. Vidya Janarthanam, <b>Vishwanath Seshagiri</b>,
+          and A.P. Shanthi&nbsp;
+          <a href="../../papers/sample.pdf">[PDF]</a>
+          <a href="https://link.springer.com/article/10.1007/s00521-019-04670-3">[LINK]</a>
+          <a href="https://gitlab.com/thebrahminator/hippo-dg">[CODE]</a>
         </li>
         <li>
-          Identifying Mismatches Between Microservice Testbeds and Industrial Perception of
-          Microservices. <b>Vishwanath Seshagiri</b>, Darby Huye, Lan Liu, Avani Wildani, Raja
-          Sambasivan [<a href="../../papers/sample.pdf">PDF</a>] [
-          <a href="https://escholarship.org/uc/item/5v3489k8">LINK</a>]
+          <span className="highlight">
+            Identifying Mismatches Between Microservice Testbeds and Industrial Perception of
+            Microservices.
+          </span>{' '}
+          <b>Vishwanath Seshagiri</b>, Darby Huye, Lan Liu, Avani Wildani, Raja Sambasivan{' '}
+          <a href="../../papers/sample.pdf">[PDF]</a>
+          <a href="https://escholarship.org/uc/item/5v3489k8">[LINK]</a>
         </li>
-      </ul>
-      <p></p>
+      </ol>
     </StyledContactSection>
   );
 };
