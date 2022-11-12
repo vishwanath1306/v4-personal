@@ -135,20 +135,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am currently in my second year of PhD at{' '}
-              <a href="https://www.emory.edu">Emory University</a>, where I am working on
-              Distributed Systems. I obtained my BE in Computer Science in 2018 from from{' '}
-              <a href="http://cs.annauniv.edu/">Department of Computer Science</a> at{' '}
-              <a href="http://ceg.annauniv.edu/">College of Engineering Guindy</a>, where I worked
-              on cutting edge research with Dr. A.P. Shanthi, and Dr. Bama Srinivasan.
+              I am currently in my fourth year of PhD at{' '}
+              <a href="https://www.emory.edu">Emory University</a>, where I am working at{' '}
+              <a href="https://simbiosys.mathcs.emory.edu/">Simbiosys Lab’s</a> Systems Group. My
+              research focus is on making microservices more performant. In a quest to increase
+              their performace, I have been researching different ways to identify failure root
+              cause and faster communication paradigm. I am advised by{' '}
+              <a href="http://www.mathcs.emory.edu/~avani/">Dr. Avani Wildani</a> and{' '}
+              <a href="http://ymsir.com/">Dr. Ymir Vigfusson</a>. I also closely collaborate with{' '}
+              <a href="https://irenezhang.net/">Dr. Irene Zhang</a> from Microsoft Research.
             </p>
 
             <p>
-              Currently, I work in <a href="https://simbiosys.mathcs.emory.edu/">Simbiosys Lab’s</a>{' '}
-              Systems Group, supervised by{' '}
-              <a href="http://www.mathcs.emory.edu/~avani/">Dr. Avani Wildani</a> and{' '}
-              <a href="http://ymsir.com/">Dr. Ymir Vigfusson.</a> My research interests is towards
-              making Microservices more performant.
+              During my PhD, I did internships at Amazon Web Services, Katanagraph to apply my
+              research for solving real world problems. In the past, I worked at UMM Studios, where
+              I was the one of the first engineers for to build a review aggregation service for{' '}
+              <a href="https://www.zceppa.com/">Zceppa</a>. I obtained my BE in Computer Science in
+              2018 from from <a href="http://cs.annauniv.edu/">Department of Computer Science</a> at{' '}
+              <a href="http://ceg.annauniv.edu/">CEG</a>.
             </p>
 
             <p>Here are a few technologies, I’ve been working with recently:</p>
