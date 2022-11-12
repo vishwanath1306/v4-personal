@@ -86,7 +86,7 @@ const Publication = () => {
           </span>{' '}
           and recall inspired by Dentate Gyrus V. Vidya Janarthanam, <b>Vishwanath Seshagiri</b>,
           and A.P. Shanthi&nbsp;
-          <a href="../../papers/sample.pdf">[PDF]</a>
+          <a href="../../papers/hippo.pdf">[PDF]</a>
           <a href="https://link.springer.com/article/10.1007/s00521-019-04670-3">[LINK]</a>
           <a href="https://gitlab.com/thebrahminator/hippo-dg">[CODE]</a>
         </li>
@@ -96,7 +96,7 @@ const Publication = () => {
             Microservices.
           </span>{' '}
           <b>Vishwanath Seshagiri</b>, Darby Huye, Lan Liu, Avani Wildani, Raja Sambasivan{' '}
-          <a href="../../papers/sample.pdf">[PDF]</a>
+          <a href="../../papers/jsysmicro.pdf">[PDF]</a>
           <a href="https://escholarship.org/uc/item/5v3489k8">[LINK]</a>
         </li>
       </ol>
