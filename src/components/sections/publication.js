@@ -32,7 +32,8 @@ const StyledContactSection = styled.section`
   }
 
   .title {
-    font-size: clamp(40px, 5vw, 60px);
+    font-size: var(--fz-heading);
+    margin-bottom: 48px;
   }
 
   .list {
@@ -74,9 +75,9 @@ const Publication = () => {
 
   return (
     <StyledContactSection id="publication" ref={revealContainer}>
-      <h2 className="numbered-heading overline">Some thing I've published</h2>
+      {/* <h2 className="numbered-heading overline">Some thing I've published</h2> */}
 
-      <h2 className="title">Publication</h2>
+      <h2 className="numbered-heading title">Publication</h2>
 
       <ol className="list">
         <li>
