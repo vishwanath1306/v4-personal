@@ -5,7 +5,7 @@ module.exports = {
     title: 'Vishwanath Seshagiri',
     description:
       'Vishwanath Seshagiri is a PhD Candidate who specializes in building cloud infrastructure for Microservices.',
-    siteUrl: 'https://vishwanath1306.github.io', // No trailing slash allowed!
+    siteUrl: 'https://vish.systems', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@__vishwanath__',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'VishwanathSeshagiri',
+        short_name: 'VishwanathSeshagiri',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -149,11 +149,12 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
-      },
-    },
+    // Change trackingId when required
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-45666519-2',
+    //   },
+    // },
   ],
 };
