@@ -151,7 +151,7 @@ const About = () => {
               research for solving real world problems. In the past, I worked at UMM Studios, where
               I was the one of the first engineers to build a review aggregation service for{' '}
               <a href="https://www.zceppa.com/">Zceppa</a>. I obtained my BE in Computer Science in
-              2018 from from <a href="http://cs.annauniv.edu/">Department of Computer Science</a> at{' '}
+              2018 from <a href="http://cs.annauniv.edu/">Department of Computer Science</a> at{' '}
               <a href="http://ceg.annauniv.edu/">CEG</a>.
             </p>
 
