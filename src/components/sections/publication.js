@@ -82,14 +82,13 @@ const Publication = () => {
       <ol className="list">
         <li>
           <span className="highlight">
-            A biologically plausible network model for pattern storage
+            Rethinking the Networking Stack for Serverless Environments: A Sidecar Approach
           </span>{' '}
-          and recall inspired by Dentate Gyrus V. Vidya Janarthanam, <b>Vishwanath Seshagiri</b>,
-          and A.P. Shanthi&nbsp;
-          <a href="/hippo.pdf">[PDF]</a>
-          <a href="https://link.springer.com/article/10.1007/s00521-019-04670-3">[LINK]</a>
-          <a href="https://gitlab.com/thebrahminator/hippo-dg">[CODE]</a>
+          <b>Vishwanath Seshagiri</b>, Abhinav Gupta, Vahab Jabrayilov, Avani Wildani, Kostis Kaffes{' '}
+          <a href="/socc_final.pdf">[PDF]</a>
+          <a href="https://vish.systems/">[LINK]</a>
         </li>
+
         <li>
           <span className="highlight">
             Identifying Mismatches Between Microservice Testbeds and Industrial Perception of
@@ -98,6 +97,17 @@ const Publication = () => {
           <b>Vishwanath Seshagiri</b>, Darby Huye, Lan Liu, Avani Wildani, Raja Sambasivan{' '}
           <a href="/jsysmicro.pdf">[PDF]</a>
           <a href="https://escholarship.org/uc/item/5v3489k8">[LINK]</a>
+        </li>
+
+        <li>
+          <span className="highlight">
+            A biologically plausible network model for pattern storage
+          </span>{' '}
+          and recall inspired by Dentate Gyrus V. Vidya Janarthanam, <b>Vishwanath Seshagiri</b>,
+          and A.P. Shanthi&nbsp;
+          <a href="/hippo.pdf">[PDF]</a>
+          <a href="https://link.springer.com/article/10.1007/s00521-019-04670-3">[LINK]</a>
+          <a href="https://gitlab.com/thebrahminator/hippo-dg">[CODE]</a>
         </li>
       </ol>
     </StyledContactSection>
