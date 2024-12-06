@@ -85,8 +85,18 @@ const Publication = () => {
             Rethinking the Networking Stack for Serverless Environments: A Sidecar Approach
           </span>{' '}
           <b>Vishwanath Seshagiri</b>, Abhinav Gupta, Vahab Jabrayilov, Avani Wildani, Kostis Kaffes{' '}
+          <a href="https://arxiv.org/pdf/2412.03612">[PDF]</a>
+          <a href="https://arxiv.org/abs/2412.03612">[LINK]</a>
+          <a href="https://github.com/nl2logql/LogQLLM">[CODE]</a>
+        </li>
+
+        <li>
+          <span className="highlight">
+            Rethinking the Networking Stack for Serverless Environments: A Sidecar Approach
+          </span>{' '}
+          <b>Vishwanath Seshagiri</b>, Abhinav Gupta, Vahab Jabrayilov, Avani Wildani, Kostis Kaffes{' '}
           <a href="/socc_final.pdf">[PDF]</a>
-          <a href="https://vish.systems/">[LINK]</a>
+          <a href="https://dl.acm.org/doi/10.1145/3698038.3698561">[LINK]</a>
         </li>
 
         <li>
