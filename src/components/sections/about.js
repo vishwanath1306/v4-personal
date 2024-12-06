@@ -135,15 +135,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am currently in my fourth year of PhD at{' '}
+              I am currently in my sixth year of PhD at{' '}
               <a href="https://www.emory.edu">Emory University</a>, where I am working at{' '}
-              <a href="https://simbiosys.mathcs.emory.edu/">Simbiosys Lab’s</a> Systems Group. My
-              research focus is on making microservices more performant. In a quest to increase
-              their performace, I have been researching different ways to identify failure root
-              cause and faster communication paradigm. I am advised by{' '}
-              <a href="http://www.mathcs.emory.edu/~avani/">Dr. Avani Wildani</a> and{' '}
-              <a href="http://ymsir.com/">Dr. Ymir Vigfusson</a>. I also closely collaborate with{' '}
-              <a href="https://irenezhang.net/">Dr. Irene Zhang</a> from Microsoft Research.
+              <a href="https://spatial.cs.emory.edu/">Spatial Computing</a> Lab. My research focus
+              is on making microservices more performant. In a quest to increase their performace, I
+              have been researching different ways to identify failure root cause and faster
+              communication paradigm. I am advised by{' '}
+              <a href="https://www.zuefle.org/">Dr. Andreas Züfle</a> and Dr. Avani Wildani. I also
+              closely collaborate with <a href="https://irenezhang.net/">Dr. Irene Zhang</a> from
+              Microsoft Research.
             </p>
 
             <p>
