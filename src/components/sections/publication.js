@@ -82,12 +82,14 @@ const Publication = () => {
       <ol className="list">
         <li>
           <span className="highlight">
-            Rethinking the Networking Stack for Serverless Environments: A Sidecar Approach
+            Chatting with Logs: An exploratory study on Finetuning LLMs for LogQL
           </span>{' '}
-          <b>Vishwanath Seshagiri</b>, Abhinav Gupta, Vahab Jabrayilov, Avani Wildani, Kostis Kaffes{' '}
+          <b>Vishwanath Seshagiri</b>, Siddharth Balyan, Vaastav Anand, Kaustubh Dhole, Ishan
+          Sharma, Avani Wildani, José Cambronero, Andreas Züfle{' '}
           <a href="https://arxiv.org/pdf/2412.03612">[PDF]</a>
           <a href="https://arxiv.org/abs/2412.03612">[LINK]</a>
           <a href="https://github.com/nl2logql/LogQLLM">[CODE]</a>
+          (Under Review)
         </li>
 
         <li>
